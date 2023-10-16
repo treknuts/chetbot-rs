@@ -9,7 +9,7 @@ use shuttle_secrets::SecretStore;
 use tracing::info;
 
 #[group]
-#[commands(hello)]
+#[commands(hello, ping)]
 struct General;
 
 struct Bot;
